@@ -1,0 +1,36 @@
+{
+  "welcome": "Holaaaa!",
+  "treehouse_title": "Puede ser la Casa de Arboles Mas Fino el Todo America de Sur",
+  "sub_description": "Casa del árbol entero - Anfitrión: Los Yarumos",
+  "prod_overview": "2 huéspedes - 1 habitación - 1 cama - 1 baño",
+  "prod_details": {
+    "house": "Alojamiento entero",
+    "cleaning": "Opciones de limpieza mejoradas",
+    "host": "Los Yarumos tiene la categoría de Superanfitrión",
+    "cancelation": "Cancelación gratuita hasta una semana antes"
+  },
+  "prod_description": "This is the kind of treehouse you see on the Discovery channel. You will experience a beautifully crafted space with fine finishing touches - this is not glamping or a cute-rustic cottage - we aimed to build something as elegant as the natural beauty that surrounds it, and we did. Equipped with a bathtub, kitchen, 2 decks, queen bed, desk, and the full feeling of being up in the trees, it's the most unique lodging experience on the outskirts of Medellin, handsdown.",
+  "map_description": "Donde estaras",
+  "where_description": "where description here",
+  "during_policy": "Estaremos disponibles en el caso que occure una emergencia.",
+  "to_know": {
+    "rules": {
+      "sub_head": "House Rules",
+      "check_in": "Check-in: 2:00 PM - 8:00 PM",
+      "check_out": "Check-in: 2:00 PM - 8:00 PM",
+      "pets": "No pets",
+      "events": "No parties or events",
+      "prostitution": "No prostitution allowed",
+      "smoking": "Outside smoking only"
+    },
+    "health": {
+      "sub_head": "Health & Safety",
+      "cleaning": "Enhanced cleaning and covid protocols",
+      "smoke_alarm": "Inside smoke alarm"
+    },
+    "cancellation": {
+      "sub_head": "Cancellation Policy",
+      "policy": "Free cancelation one week before stay"
+    }
+  }
+}
