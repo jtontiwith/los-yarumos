@@ -33,7 +33,32 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxt/image',
+    '@nuxtjs/google-fonts',
   ],
+
+  // googleFonts: {
+  // families: {
+  // Roboto: true,
+  // 'Josefin+Sans': true,
+  // Lato: [100, 300],
+  // Raleway: {
+  // wght: [100, 400],
+  // ital: [100],
+  // },
+  // },
+  // },
+
+  googleFonts: {
+    families: {
+      Cabin: true,
+      // or:
+      // Lato: [100, 300],
+      // Raleway: {
+      //   wght: [100, 400],
+      //   ital: [100]
+      // },
+    },
+  },
 
   image: {
     // Options

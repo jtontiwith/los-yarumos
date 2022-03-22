@@ -33,7 +33,9 @@
         <p>{{ $t('during_policy') }}</p>
       </div>
     </div>
-    <div class="pt-8 md:pt-0"><AppBaseButton text="Contact Host" /></div>
+    <div class="pt-8 md:pt-0">
+      <AppClickToChat>Contact Host</AppClickToChat>
+    </div>
   </div>
 </template>
 

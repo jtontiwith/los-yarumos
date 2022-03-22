@@ -1,6 +1,5 @@
 <template>
   <div>
-    <AppLangToggle />
     <header class="my-4">
       <h1 class="text-2xl font-semibold uppercase">
         {{ $t('treehouse_title') }}
@@ -10,7 +9,9 @@
     <AppGallery />
     <section class="grid grid-cols-1 pt-6 md:grid-cols-2">
       <ProductDetails />
-      <div>checkout here</div>
+      <div class="px-12">
+        <AppCTA />
+      </div>
     </section>
     <div class="w-full border-t border-gray-300"></div>
     <section>

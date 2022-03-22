@@ -5,27 +5,24 @@
         <nuxt-img
           class="object-cover w-full md:rounded-l-xl"
           style="height: 328px"
-          src="/treehouse_far_view.jpg"
+          :src="largeImg"
         />
       </div>
       <!-- https://stackoverflow.com/questions/9071830/contain-an-image-within-a-div -->
       <div class="grid grid-cols-2 gap-2 md:max-w-123">
-        <div class="md:max-w-124 md:max-h-125">
-          <nuxt-img class="object-cover w-full h-full" src="/bathtub.jpg" />
-        </div>
-        <div class="md:max-w-124 md:max-h-125">
+        <div
+          v-for="(img, i) in images"
+          :key="i"
+          class="md:max-w-124 md:max-h-125"
+        >
           <nuxt-img
-            class="object-cover w-full h-full md:rounded-tr-xl"
-            src="/bedroom.jpg"
-          />
-        </div>
-        <div class="md:max-w-124 md:max-h-125">
-          <nuxt-img class="object-cover w-full h-full" src="/kitchen.jpg" />
-        </div>
-        <div class="md:max-w-124 md:max-h-125">
-          <nuxt-img
-            class="object-cover w-full h-full md:rounded-br-xl"
-            src="/front_deck.jpg"
+            class="object-cover w-full h-full"
+            :class="{
+              'md:rounded-tr-xl': i === 1,
+              'md:rounded-br-xl': i === 3,
+            }"
+            :src="img"
+            @click="switchImg(i)"
           />
         </div>
       </div>
@@ -36,5 +33,16 @@
 <script>
 export default {
   name: 'AppGallery',
+  data: () => ({
+    largeImg: '/treehouse_far_view.jpg',
+    images: ['/bathtub.jpg', '/bedroom.jpg', '/kitchen.jpg', '/front_deck.jpg'],
+  }),
+  methods: {
+    switchImg(idx) {
+      const imgToSwitch = this.largeImg
+      this.largeImg = this.images[idx]
+      this.images[idx] = imgToSwitch
+    },
+  },
 }
 </script>

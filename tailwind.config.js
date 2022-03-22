@@ -15,6 +15,9 @@ module.exports = {
         125: '160px',
       },
     },
+    fontFamily: {
+      handwritten: ['Cabin'],
+    },
   },
   variants: {
     extend: {},
