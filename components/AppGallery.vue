@@ -8,12 +8,11 @@
           :src="largeImg"
         />
       </div>
-      <!-- https://stackoverflow.com/questions/9071830/contain-an-image-within-a-div -->
       <div class="grid grid-cols-2 gap-2 md:max-w-123">
         <div
           v-for="(img, i) in images"
           :key="i"
-          class="md:max-w-124 md:max-h-125"
+          class="cursor-pointer md:max-w-124 md:max-h-125"
         >
           <nuxt-img
             class="object-cover w-full h-full"
