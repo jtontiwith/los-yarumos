@@ -6,10 +6,36 @@
       </h1>
     </header>
     <AppReviewLink />
-    <AppGallery />
+    <!--<AppGallery />-->
+    <section class="grid grid-cols-2">
+      <div>
+        <nuxt-img
+          class="object-cover w-full md:rounded-l-xl"
+          style="height: 486px"
+          src="/treehouse_far_view.jpg"
+        />
+      </div>
+      <div class="flex flex-wrap pl-2">
+        <div
+          v-for="(img, i) in images"
+          :key="i"
+          class="w-1/2"
+          :class="{ 'pr-2 pb-2': i === 0, 'pb-2': i === 1, 'pr-2': i === 2 }"
+        >
+          <nuxt-img
+            class="object-cover w-full h-full"
+            :class="{
+              'md:rounded-tr-xl': i === 1,
+              'md:rounded-br-xl': i === 3,
+            }"
+            :src="img"
+          />
+        </div>
+      </div>
+    </section>
     <section class="grid grid-cols-1 pt-6 md:grid-cols-2">
       <ProductDetails />
-      <div class="px-12">
+      <div class="flex justify-end">
         <AppCTA />
       </div>
     </section>
@@ -41,5 +67,8 @@
 export default {
   name: 'Treehouse',
   layout: 'product',
+  data: () => ({
+    images: ['/bathtub.jpg', '/bedroom.jpg', '/kitchen.jpg', '/front_deck.jpg'],
+  }),
 }
 </script>

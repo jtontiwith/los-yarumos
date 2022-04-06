@@ -4,20 +4,9 @@
     <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
       <div class="flex justify-between h-20">
         <div class="flex">
-          <div class="flex items-center flex-shrink-0">
-            <!--<img
-              class="block w-auto h-8 lg:hidden"
-              src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-              alt="Workflow"
-            />
-            <img
-              class="hidden w-auto h-8 lg:block"
-              src="https://tailwindui.com/img/logos/workflow-logo-indigo-600-mark-gray-800-text.svg"
-              alt="Workflow"
-            />-->
-            <nuxt-img class="hidden w-auto h-16 lg:block" src="/logo.jpg" />
+          <AppLogo>
             <h1 class="ml-2 text-2xl font-handwritten">Los Yarumos</h1>
-          </div>
+          </AppLogo>
           <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
             <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
             <!--<a

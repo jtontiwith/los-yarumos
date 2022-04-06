@@ -6,9 +6,10 @@
       language="en"
       :cluster="{ options: { styles: clusterStyle } }"
       :center="{ lat: locations[0].lat, lng: locations[0].lng }"
-      :options="{ fullscreenControl: false, styles: mapStyle }"
+      :options="{ fullscreenControl: false }"
       :zoom="15"
     >
+      <!-- styles: mapStyle was in :options -->
       <GMapMarker
         v-for="location in locations"
         :key="location.id"
@@ -22,7 +23,8 @@
           <code> lat: {{ location.lat }}, lng: {{ location.lng }} </code>
         </GMapInfoWindow>
       </GMapMarker>
-      <GMapCircle :options="circleOptions" />
+      <GMapCircle />
+      <!-- :options="circleOptions" -->
     </GMap>
     <h4 class="mt-6 mb-2 text-xl">Santa Elena, Colombia</h4>
     <p>{{ $t('where_description') }}</p>

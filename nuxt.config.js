@@ -50,7 +50,7 @@ export default {
 
   googleFonts: {
     families: {
-      Cabin: true,
+      Cabin: [400, 500, 600, 700],
       // or:
       // Lato: [100, 300],
       // Raleway: {

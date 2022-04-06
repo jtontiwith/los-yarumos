@@ -1,14 +1,25 @@
 {
   "welcome": "Holaaaa!",
+  "welcome_btn": "Ven y tenga una experiencia unica",
   "treehouse_title": "Puede ser la Casa de Arboles Mas Fino el Todo America de Sur",
   "sub_description": "Casa del árbol entero - Anfitrión: Los Yarumos",
-  "prod_overview": "2 huéspedes - 1 habitación - 1 cama - 1 baño",
+  "prod_overview": {
+    "guests": "2 huéspedes",
+    "room": "1 habitación",
+    "bed": "1 cama",
+    "bath": "1 baño"
+  },
   "prod_details": {
     "house": "Alojamiento entero",
+    "house_sub": "Inclyue casa de arbol entero y su jardin aredador.",
     "cleaning": "Opciones de limpieza mejoradas",
+    "cleaning_sub": "Usamos el mismo proceso de limpieza mejorada de 5 pasos de Airbnb.",
     "host": "Los Yarumos tiene la categoría de Superanfitrión",
-    "cancelation": "Cancelación gratuita hasta una semana antes"
+    "host_sub": "Tenemos años de experiencia en hospedaje, y sin la mierda corporativa de Airbnb.",
+    "cancelation": "Cancelación gratuita hasta una semana antes",
+    "cancelation_sub": "Puede cancelar sin cargo hasta 7 días antes del día de su llegada."
   },
+  "reviews": "reseñas",
   "prod_description": "This is the kind of treehouse you see on the Discovery channel. You will experience a beautifully crafted space with fine finishing touches - this is not glamping or a cute-rustic cottage - we aimed to build something as elegant as the natural beauty that surrounds it, and we did. Equipped with a bathtub, kitchen, 2 decks, queen bed, desk, and the full feeling of being up in the trees, it's the most unique lodging experience on the outskirts of Medellin, handsdown.",
   "map_description": "Donde estaras",
   "where_description": "where description here",

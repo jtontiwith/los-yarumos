@@ -2,7 +2,9 @@
   <div>
     <h2 class="mb-2 text-xl">{{ $t('sub_description') }}</h2>
     <p class="mb-6 text-sm font-light text-gray-500">
-      {{ $t('prod_overview') }}
+      {{ $t('prod_overview.guests') }} &middot;
+      {{ $t('prod_overview.room') }} &middot;
+      {{ $t('prod_overview.bed') }} &middot; {{ $t('prod_overview.bath') }}
     </p>
     <section>
       <div class="w-full border-t border-gray-300"></div>
