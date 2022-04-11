@@ -7,12 +7,13 @@
     </header>
     <AppReviewLink />
     <!--<AppGallery />-->
+    <span>test</span>
     <section class="grid grid-cols-2">
       <div>
         <nuxt-img
           class="object-cover w-full md:rounded-l-xl"
           style="height: 486px"
-          src="/treehouse_far_view.jpg"
+          src="/treehouse_test_img.jpeg"
         />
       </div>
       <div class="flex flex-wrap pl-2">

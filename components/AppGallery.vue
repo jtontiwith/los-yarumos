@@ -5,7 +5,7 @@
         <nuxt-img
           class="object-cover w-full md:rounded-l-xl"
           style="height: 328px"
-          src="/treehouse_far_view.jpg"
+          src="/bedroom.jpg"
         />
       </div>
       <div class="grid grid-cols-2 gap-2 md:max-w-123">
