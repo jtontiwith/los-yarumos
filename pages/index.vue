@@ -8,6 +8,7 @@
       playsinline
       muted
       autoplay
+      loop
       src="../static/pan_vid.mp4"
     >
       <div class="video-error">No video!</div>

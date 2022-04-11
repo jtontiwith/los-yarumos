@@ -1,48 +1,41 @@
 <template>
-  <div class="grid grid-rows-1">
-    <div class="grid grid-cols-1 gap-2 md:grid-cols-2">
-      <div class="mb-2 max-h-80 max-w-130 md:mb-0">
+  <section class="grid lg:grid-cols-2">
+    <div>
+      <nuxt-img
+        class="object-cover w-full h-full rounded lg:mb-0 lg:rounded-l-xl lg:rounded-r-none"
+        src="/farview_small.jpg"
+      />
+    </div>
+    <div class="flex flex-wrap pt-2 lg:pt-0 lg:pl-2">
+      <div
+        v-for="(img, i) in images"
+        :key="i"
+        class="w-1/2"
+        :class="{ 'pr-2 pb-2': i === 0, 'pb-2': i === 1, 'pr-2': i === 2 }"
+      >
         <nuxt-img
-          class="object-cover w-full md:rounded-l-xl"
-          style="height: 328px"
-          src="/bedroom.jpg"
+          class="object-cover w-full h-full rounded"
+          :class="{
+            'lg:rounded-none': i === 0 || i === 2,
+            'lg:rounded-tr-xl lg:rounded-l-none lg:rounded-br-none': i === 1,
+            'lg:rounded-br-xl lg:rounded-l-none lg:rounded-tr-none': i === 3,
+          }"
+          :src="img"
         />
       </div>
-      <div class="grid grid-cols-2 gap-2 md:max-w-123">
-        <div
-          v-for="(img, i) in images"
-          :key="i"
-          class="cursor-pointer md:max-w-124 md:max-h-125"
-        >
-          <nuxt-img
-            class="object-cover w-full h-full"
-            :class="{
-              'md:rounded-tr-xl': i === 1,
-              'md:rounded-br-xl': i === 3,
-            }"
-            :src="img"
-            @click="switchImg(i)"
-          />
-        </div>
-      </div>
     </div>
-    <span>test</span>
-  </div>
+  </section>
 </template>
 
 <script>
 export default {
-  name: 'AppGallery',
   data: () => ({
-    largeImg: '/treehouse_far_view.jpg',
-    images: ['/bathtub.jpg', '/bedroom.jpg', '/kitchen.jpg', '/front_deck.jpg'],
+    images: [
+      '/bedroom_small.jpg',
+      '/bathroom_small.jpg',
+      '/kitchen_small.jpg',
+      '/front_deck_small.jpg',
+    ],
   }),
-  methods: {
-    switchImg(idx) {
-      const imgToSwitch = this.largeImg
-      this.largeImg = this.images[idx]
-      this.images[idx] = imgToSwitch
-    },
-  },
 }
 </script>
