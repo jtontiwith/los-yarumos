@@ -7,13 +7,12 @@
     </header>
     <AppReviewLink />
     <!--<AppGallery />-->
-    <span>test</span>
     <section class="grid grid-cols-2">
       <div>
         <nuxt-img
           class="object-cover w-full md:rounded-l-xl"
           style="height: 486px"
-          src="/treehouse_test_img.jpeg"
+          src="/farview_small.jpg"
         />
       </div>
       <div class="flex flex-wrap pl-2">
@@ -61,8 +60,6 @@
     <br />
     <br />
     <br />
-    <ImgTest />
-    <div>yo</div>
   </div>
 </template>
 
@@ -71,7 +68,12 @@ export default {
   name: 'Treehouse',
   layout: 'product',
   data: () => ({
-    images: ['/bathtub.jpg', '/bedroom.jpg', '/kitchen.jpg', '/front_deck.jpg'],
+    images: [
+      '/bedroom_small.jpg',
+      '/bathroom_small.jpg',
+      '/kitchen_small.jpg',
+      '/front_deck_small.jpg',
+    ],
   }),
 }
 </script>

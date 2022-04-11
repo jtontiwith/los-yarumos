@@ -8,7 +8,7 @@
       playsinline
       muted
       autoplay
-      src="../static/walk_vid.mp4"
+      src="../static/pan_vid.mp4"
     >
       <div class="video-error">No video!</div>
     </video>
