@@ -3,7 +3,7 @@
     <div>
       <nuxt-img
         class="object-cover w-full h-full rounded lg:mb-0 lg:rounded-l-xl lg:rounded-r-none"
-        src="/farview_small.jpg"
+        src="/treehouse_far_view_p.jpg"
       />
     </div>
     <div class="flex flex-wrap pt-2 lg:pt-0 lg:pl-2">
@@ -20,7 +20,7 @@
             'lg:rounded-tr-xl lg:rounded-l-none lg:rounded-br-none': i === 1,
             'lg:rounded-br-xl lg:rounded-l-none lg:rounded-tr-none': i === 3,
           }"
-          :src="img"
+          :src="img.path"
         />
       </div>
     </div>
@@ -31,11 +31,20 @@
 export default {
   data: () => ({
     images: [
-      '/bedroom_small.jpg',
-      '/bathroom_small.jpg',
-      '/kitchen_small.jpg',
-      '/front_deck_small.jpg',
+      { path: '/bedroom_p.jpg', loaded: true },
+      { path: '/bathroom_p.jpg', loaded: false },
+      { path: '/kitchen_p.jpg', loaded: false },
+      { path: '/balcony_p.jpg', loaded: false },
     ],
+    imgIsLoaded: false,
   }),
+  /* methods: {
+    isLoaded() {
+      this.imgIsLoaded = true
+    },
+    smallLoaded(idx) {
+      this.images[idx].loaded = true
+    },
+  }, */
 }
 </script>
