@@ -31,8 +31,8 @@
       "check_out": "Check-in: 2:00 PM - 8:00 PM",
       "pets": "No pets",
       "events": "No parties or events",
-      "prostitution": "No prostitution allowed",
-      "smoking": "Outside smoking only"
+      "prostitution": "No prostitution",
+      "smoking": "Outside smoking"
     },
     "health": {
       "sub_head": "Health & Safety",

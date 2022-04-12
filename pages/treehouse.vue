@@ -1,5 +1,6 @@
 <template>
   <div>
+    <span id="gallery"></span>
     <header class="my-4">
       <h1 class="text-2xl font-semibold uppercase">
         {{ $t('treehouse_title') }}
@@ -14,12 +15,13 @@
       </div>
     </section>
     <div class="w-full border-t border-gray-300"></div>
-    <section>
+    <section id="reviews">
       <AppReviewSummary />
       <AppReviews />
     </section>
     <div class="w-full border-t border-gray-300"></div>
     <br />
+    <span id="map"></span>
     <AppMap />
     <br />
     <div class="w-full border-t border-gray-300"></div>

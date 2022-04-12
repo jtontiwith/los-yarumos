@@ -131,6 +131,7 @@
             class="inline-flex items-center justify-center p-2 text-gray-400 rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
             aria-controls="mobile-menu"
             aria-expanded="false"
+            @click="toggleMenu"
           >
             <span class="sr-only">Open main menu</span>
             <!--
@@ -183,15 +184,20 @@
     </div>
 
     <!-- Mobile menu, show/hide based on menu state. -->
-    <div id="mobile-menu" class="sm:hidden">
+    <div v-if="mobileMenu" id="mobile-menu" class="sm:hidden">
       <div class="pt-2 pb-3 space-y-1">
         <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" -->
-        <a
-          href="#"
-          class="block py-2 pl-3 pr-4 text-base font-medium text-indigo-700 border-l-4 border-indigo-500 bg-indigo-50"
-          >Dashboard</a
+
+        <nuxt-link
+          v-for="(item, i) in menuLinks"
+          :key="i"
+          class="block py-2 pl-3 pr-4 text-base font-medium text-gray-500 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700"
+          :to="{ path: item.path, hash: item.link }"
+          @click="toggleMenu"
+          >{{ item.text }}</nuxt-link
         >
-        <a
+
+        <!--<a
           href="#"
           class="block py-2 pl-3 pr-4 text-base font-medium text-gray-500 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700"
           >Team</a
@@ -205,9 +211,10 @@
           href="#"
           class="block py-2 pl-3 pr-4 text-base font-medium text-gray-500 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700"
           >Calendar</a
-        >
+        >-->
+        <div class="px-4"><AppClickToChat>Contact Host</AppClickToChat></div>
       </div>
-      <div class="pt-4 pb-3 border-t border-gray-200">
+      <!--<div class="pt-4 pb-3 border-t border-gray-200">
         <div class="flex items-center px-4">
           <div class="flex-shrink-0">
             <img
@@ -225,7 +232,7 @@
             class="flex-shrink-0 p-1 ml-auto text-gray-400 bg-white rounded-full hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
           >
             <span class="sr-only">View notifications</span>
-            <!-- Heroicon name: outline/bell -->
+           
             <svg
               class="w-6 h-6"
               xmlns="http://www.w3.org/2000/svg"
@@ -260,7 +267,7 @@
             >Sign out</a
           >
         </div>
-      </div>
+      </div>-->
     </div>
   </nav>
 </template>
@@ -268,5 +275,23 @@
 <script>
 export default {
   name: 'AppNav',
+  data: () => ({
+    mobileMenu: false,
+    menuLinks: [
+      { text: 'About', link: null, path: '/info' },
+      { text: 'Reviews', link: '#reviews', path: '/treehouse' },
+      { text: 'Location', link: '#map', path: '/treehouse' },
+    ],
+  }),
+  watch: {
+    $route() {
+      this.mobileMenu = false
+    },
+  },
+  methods: {
+    toggleMenu() {
+      this.mobileMenu = !this.mobileMenu
+    },
+  },
 }
 </script>

@@ -9,43 +9,39 @@
               <h3
                 class="text-sm font-semibold tracking-wider text-gray-400 uppercase"
               >
-                Solutions
+                glossary
               </h3>
               <ul role="list" class="mt-4 space-y-4">
                 <li>
-                  <a
-                    href="#"
+                  <nuxt-link
                     class="text-base text-gray-500 hover:text-gray-900"
+                    :to="{ path: '/treehouse', hash: '#map' }"
+                    >Location</nuxt-link
                   >
-                    Location
-                  </a>
                 </li>
 
                 <li>
-                  <a
-                    href="#"
+                  <nuxt-link
                     class="text-base text-gray-500 hover:text-gray-900"
+                    :to="{ path: '/treehouse', hash: '#gallery' }"
+                    >Gallery</nuxt-link
                   >
-                    Gallery
-                  </a>
                 </li>
 
                 <li>
-                  <a
-                    href="#"
+                  <nuxt-link
                     class="text-base text-gray-500 hover:text-gray-900"
+                    to="/info"
+                    >Near to Los Yarumos</nuxt-link
                   >
-                    Near to Los Yarumos
-                  </a>
                 </li>
 
                 <li>
-                  <a
-                    href="#"
+                  <nuxt-link
                     class="text-base text-gray-500 hover:text-gray-900"
+                    to="/info"
+                    >Press</nuxt-link
                   >
-                    Press
-                  </a>
                 </li>
               </ul>
             </div>
@@ -57,39 +53,35 @@
               </h3>
               <ul role="list" class="mt-4 space-y-4">
                 <li>
-                  <a
-                    href="#"
+                  <nuxt-link
                     class="text-base text-gray-500 hover:text-gray-900"
+                    to="/info"
+                    >About</nuxt-link
                   >
-                    About
-                  </a>
                 </li>
 
                 <li>
-                  <a
-                    href="#"
+                  <nuxt-link
                     class="text-base text-gray-500 hover:text-gray-900"
+                    :to="{ path: '/treehouse', hash: '#reviews' }"
+                    >Reviews</nuxt-link
                   >
-                    Reviews
-                  </a>
                 </li>
 
                 <li>
-                  <a
-                    href="#"
+                  <nuxt-link
                     class="text-base text-gray-500 hover:text-gray-900"
+                    to="/info"
+                    >Food</nuxt-link
                   >
-                    Food
-                  </a>
                 </li>
 
                 <li>
-                  <a
-                    href="#"
+                  <nuxt-link
                     class="text-base text-gray-500 hover:text-gray-900"
+                    to="/info"
+                    >Wellness</nuxt-link
                   >
-                    Wellness
-                  </a>
                 </li>
               </ul>
             </div>

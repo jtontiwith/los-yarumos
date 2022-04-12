@@ -1,8 +1,8 @@
 <template>
-  <div class="flex items-center flex-shrink-0" :class="styles">
+  <nuxt-link class="flex items-center flex-shrink-0" :class="styles" to="/">
     <nuxt-img class="hidden w-auto h-16 rounded-lg lg:block" src="/logo.jpg" />
     <slot></slot>
-  </div>
+  </nuxt-link>
 </template>
 
 <script>
