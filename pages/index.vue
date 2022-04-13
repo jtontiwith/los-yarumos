@@ -3,16 +3,16 @@
     <!--TODO: use different strategy to darken video-->
     <video
       id="hero-video"
+      poster="treehouse_far_view_p.jpg"
       class="object-cover w-screen h-screen bg-black"
       style="-webkit-filter: brightness(75%)"
       playsinline
       muted
       controls
       preload="none"
-      poster="../static/kitchen_p.jpg"
-      src="../static/pan_vid.mp4"
     >
-      <div class="video-error">No video!</div>
+      <source src="../static/pan_vid.mp4" type="video/mp4" />
+      <div>No video!</div>
     </video>
     <AppLogo position="absolute" top="top-0" left="left-0" padding="p-6">
       <h1 class="ml-2 text-4xl font-bold text-white font-handwritten">
