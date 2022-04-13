@@ -7,7 +7,9 @@
       style="-webkit-filter: brightness(75%)"
       playsinline
       muted
-      autoplay
+      controls
+      preload="none"
+      poster="../static/kitchen_p.jpg"
       src="../static/pan_vid.mp4"
     >
       <div class="video-error">No video!</div>
