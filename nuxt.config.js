@@ -78,13 +78,13 @@ export default {
     locales: [
       {
         code: 'en',
-        name: 'English',
+        name: 'EN',
         iso: 'en-US',
         file: 'en.json',
       },
       {
         code: 'es',
-        name: 'Español',
+        name: 'ES',
         iso: 'es-ESP',
         file: 'es.json',
       },

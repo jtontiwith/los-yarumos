@@ -197,6 +197,16 @@
           >{{ item.text }}</nuxt-link
         >
 
+        <a
+          v-for="locale in availableLocales"
+          :key="locale.code"
+          href="#"
+          class="block py-2 pl-3 pr-4 text-base font-medium text-gray-500 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700"
+          :class="styles"
+          @click.prevent.stop="$i18n.setLocale(locale.code)"
+          >{{ locale.name === 'EN' ? 'Language' : 'Idioma' }} -
+          {{ locale.name }}
+        </a>
         <!--<a
           href="#"
           class="block py-2 pl-3 pr-4 text-base font-medium text-gray-500 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700"
@@ -212,7 +222,9 @@
           class="block py-2 pl-3 pr-4 text-base font-medium text-gray-500 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700"
           >Calendar</a
         >-->
-        <div class="px-4"><AppClickToChat>Contact Host</AppClickToChat></div>
+        <div class="px-3">
+          <AppClickToChat>Contact Host</AppClickToChat>
+        </div>
       </div>
       <!--<div class="pt-4 pb-3 border-t border-gray-200">
         <div class="flex items-center px-4">
@@ -283,11 +295,18 @@ export default {
       { text: 'Location', link: '#map', path: '/treehouse' },
     ],
   }),
+
+  computed: {
+    availableLocales() {
+      return this.$i18n.locales.filter((i) => i.code !== this.$i18n.locale)
+    },
+  },
   watch: {
     $route() {
       this.mobileMenu = false
     },
   },
+
   methods: {
     toggleMenu() {
       this.mobileMenu = !this.mobileMenu
