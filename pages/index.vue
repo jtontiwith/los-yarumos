@@ -3,7 +3,7 @@
     <!--TODO: use different strategy to darken video-->
     <video
       id="hero-video"
-      poster="treehouse_far_view_p.jpg"
+      poster="hallway_p.jpg"
       class="object-cover w-screen h-screen bg-black"
       style="-webkit-filter: brightness(75%)"
       playsinline
