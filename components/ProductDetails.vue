@@ -88,6 +88,7 @@
         </ul>
       </div>
     </section>
+    <AppCalendarContainer />
   </div>
 </template>
 

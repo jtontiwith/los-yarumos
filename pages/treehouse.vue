@@ -8,9 +8,9 @@
     </header>
     <AppReviewLink />
     <AppGallery />
-    <section class="grid grid-cols-1 pt-6 md:grid-cols-2">
-      <ProductDetails />
-      <div class="flex justify-end">
+    <section class="grid grid-cols-1 pt-6 md:grid-cols-5 gap-x-6">
+      <div class="col-span-3"><ProductDetails /></div>
+      <div class="col-span-2 px-6">
         <AppCTA />
       </div>
     </section>
