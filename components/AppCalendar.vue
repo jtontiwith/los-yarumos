@@ -103,7 +103,7 @@ export default {
   methods: {
     async fetchEvents() {
       const events = await this.$axios.$get(
-        'https://script.google.com/macros/s/AKfycbwdap7rWIqft34rS1DszbewDmiVS21g3Pr8KARlihRvt5Jw3Ouu48BNJgodsYoOwe_n/exec'
+        'https://idazm2y4e8.execute-api.us-east-2.amazonaws.com/default/test'
       )
       this.events = events
     },
