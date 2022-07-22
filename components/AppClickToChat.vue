@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="w-full grow">
     <a
-      class="inline-flex items-center justify-center w-full py-3 pl-6 pr-8 text-base font-medium text-center text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm whitespace-nowrap md:w-min hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+      class="flex items-center justify-center w-full py-3 pl-6 pr-8 text-base font-medium text-center text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm whitespace-nowrap hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
       href="https://wa.me/573116611585"
     >
       <svg

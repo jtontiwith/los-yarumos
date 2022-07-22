@@ -7,10 +7,20 @@
       </h1>
     </header>
     <AppReviewLink />
-    <AppGallery />
+    <section class="relative">
+      <AppGallery v-if="!carousel" />
+      <AppCarousel v-if="carousel" />
+      <div
+        class="absolute flex items-center py-1 pl-4 pr-6 text-sm bg-white border border-black rounded-md cursor-pointer bottom-4 left-4"
+        @click="toggleCarousel"
+      >
+        <AppIcon width="25" height="25"><Photo /></AppIcon>
+        <p class="ml-3 font-semibold">Show all photos</p>
+      </div>
+    </section>
     <section class="grid grid-cols-1 pt-6 md:grid-cols-5 gap-x-6">
       <div class="col-span-3"><ProductDetails /></div>
-      <div class="col-span-2 px-6">
+      <div class="col-span-3 mt-4 md:col-span-2">
         <AppCTA />
       </div>
     </section>
@@ -40,8 +50,20 @@
 </template>
 
 <script>
+import { Photo } from '../components/icons'
 export default {
   name: 'Treehouse',
+  components: {
+    Photo,
+  },
   layout: 'product',
+  data: () => ({
+    carousel: false,
+  }),
+  methods: {
+    toggleCarousel() {
+      this.carousel = !this.carousel
+    },
+  },
 }
 </script>

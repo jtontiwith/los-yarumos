@@ -7,6 +7,9 @@ module.exports = {
         130: '33.125rem',
         100: '16rem',
       },
+      height: {
+        112: '560px',
+      },
       maxWidth: {
         124: '255px',
         123: '516px',

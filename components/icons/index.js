@@ -4,5 +4,6 @@ import Badge from './Badge.vue'
 import Calendar from './Calendar.vue'
 import ChevronRight from './ChevronRight.vue'
 import ChevronLeft from './ChevronLeft.vue'
+import Photo from './Photo.vue'
 
-export { Home, Star, Badge, Calendar, ChevronRight, ChevronLeft }
+export { Home, Star, Badge, Calendar, ChevronRight, ChevronLeft, Photo }

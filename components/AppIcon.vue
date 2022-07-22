@@ -8,7 +8,6 @@
     viewBox="0 0 24 24"
     :aria-labelledby="iconName"
     role="presentation"
-    class="h-8 w-8"
   >
     <slot />
   </svg>
@@ -23,11 +22,11 @@ export default {
     },
     width: {
       type: [Number, String],
-      default: 16,
+      default: 30,
     },
     height: {
       type: [Number, String],
-      default: 16,
+      default: 30,
     },
     iconColor: {
       type: String,

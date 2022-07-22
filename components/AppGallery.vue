@@ -34,6 +34,7 @@
 
 <script>
 export default {
+  components: {},
   data: () => ({
     images: [
       { path: '/treehouse_far_view_p.jpg', loaded: false },
