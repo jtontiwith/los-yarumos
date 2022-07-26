@@ -19,7 +19,7 @@
         @click="toggleCarousel"
       >
         <AppIcon width="25" height="25"><Photo /></AppIcon>
-        <p class="ml-3 font-semibold">Show all photos</p>
+        <p class="ml-3 font-semibold">All</p>
       </div>
     </section>
     <section class="grid grid-cols-1 pt-6 md:grid-cols-5 gap-x-6">
