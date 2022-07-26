@@ -1,11 +1,11 @@
 <template>
-  <div>
+  <div class="mb-1">
     <carousel
       :per-page="1"
       :navigate-to="someLocalProperty"
       :mouse-drag="false"
-      pagination-position="bottom-overlay"
       pagination-color="#16a34a"
+      pagination-position="bottom-overlay"
     >
       <template v-for="(img, i) in images">
         <slide :key="i">

@@ -9,6 +9,7 @@ module.exports = {
       },
       height: {
         112: '560px',
+        113: '95vh',
       },
       maxWidth: {
         124: '255px',

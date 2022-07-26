@@ -8,8 +8,12 @@
     </header>
     <AppReviewLink />
     <section class="relative">
-      <AppGallery v-if="!carousel" />
-      <AppCarousel v-if="carousel" />
+      <AppModal v-if="carousel && vpWidth < 600">
+        <AppCarousel />
+        <AppBaseButton text="Back" @click.native="toggleCarousel" />
+      </AppModal>
+      <AppCarousel v-else-if="carousel" />
+      <AppGallery v-else />
       <div
         class="absolute flex items-center py-1 pl-4 pr-6 text-sm bg-white border border-black rounded-md cursor-pointer bottom-4 left-4"
         @click="toggleCarousel"
@@ -59,10 +63,16 @@ export default {
   layout: 'product',
   data: () => ({
     carousel: false,
+    vpWidth: null,
   }),
+  mounted() {
+    this.vpWidth = window.innerWidth
+  },
   methods: {
     toggleCarousel() {
       this.carousel = !this.carousel
+      // if (this.carousel) document.body.classList.add('fixed')
+      // if (!this.carousel) document.body.classList.remove('fixed')
     },
   },
 }
