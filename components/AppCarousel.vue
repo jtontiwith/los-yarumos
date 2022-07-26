@@ -10,7 +10,7 @@
       <template v-for="(img, i) in images">
         <slide :key="i">
           <nuxt-img
-            class="object-cover w-full rounded rounded-lg h-112 lg:mb-0"
+            class="object-cover w-full rounded rounded-lg lg:h-112 lg:mb-0"
             :src="img.path"
           />
         </slide>
