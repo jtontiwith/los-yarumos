@@ -17,14 +17,44 @@
     "host": "Los Yarumos is a Superhost",
     "host_sub": "We've got years of experiece hosting, and without Airbnb's corporate bullshit.",
     "cancelation": "Free cancellation up to 1 week before stay",
-    "cancelation_sub": "You can cancel with no charge up 7 days before the day of your arrival."
+    "cancelation_sub": "You can cancel with no charge up 7 days before the day of your arrival.",
+    "room_callout": "Where you'll sleep",
+    "room": "Bedroom",
+    "bed": "1 queen bed"
   },
+  "features": {
+    "offering": "What this place offers",
+    "kitchen": "Kitchen",
+    "wifi": "Fast wifi",
+    "bath": "Bathtub / Shower",
+    "deck": "2 Decks",
+    "park": "Free parking",
+    "food": "Garden basket",
+    "workspace": "Dedicated workspace",
+    "safety": "Smoke Detector",
+    "heat": "Heaters"
+  },
+  "reviews_summary": {
+    "clean": "Cleanliness",
+    "comm": "Communication",
+    "check": "Check-in",
+    "accu": "Accuracy",
+    "loc": "Location",
+    "val": "Value"
+  },
+  "more_photos": "All",
+  "less_photos": "Back",
+  "btn_cta": "Chat to schedule your stay",
+  "night": "night",
   "reviews": "reviews",
   "prod_description": "This is the kind of treehouse you see on the Discovery channel. You will experience a beautifully crafted space with fine finishing touches - this is not glamping or a cute-rustic cottage - it's instead as elegant as the natural beauty that surrounds it. Equipped with a bathtub, kitchen, 2 decks, queen bed, desk, fiber-optic internet, and the full experience of being up in the trees, it's the most unique lodging experience on the outskirts of Medellin.",
   "map_description": "Where you’ll be",
   "where_description": "You'll find the treehouse in Santa Elena, just 45 minutes outside Medellín yet it feels like your 3 hours away form the city in your own private forrest. Santa Elena is intermingle with Parque Arví and massive amounts of untouched public forrest so there's plenty of pristine nature to explore. Close by you'll find good restaurants, Parque Arví, Comfama, tons of hiking trails, peace & tranquility.",
+  "during_head": "During your stay",
   "during_policy": "We can assit in the case of an emergency.",
+  "contact_host": "Get in contact with host",
   "to_know": {
+    "head": "Things to know",
     "rules": {
       "sub_head": "House Rules",
       "check_in": "Check-in: 2:00 PM - 8:00 PM",
@@ -42,6 +72,19 @@
     "cancellation": {
       "sub_head": "Cancellation Policy",
       "policy": "Free cancelation one week before stay"
+    }
+  },
+  "footer": {
+    "links": {
+      "glossary": "Glossary",
+      "location": "Location",
+      "gallery": "Gallery",
+      "near_to": "Near to Los Yarumos",
+      "press": "Press",
+      "about": "About",
+      "reviews": "Reviews",
+      "Food": "Food",
+      "Wellness": "Wellness"
     }
   }
 }

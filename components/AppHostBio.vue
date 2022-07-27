@@ -1,7 +1,11 @@
 <template>
   <div class="grid grid-cols-1 py-4 mt-6 md:grid-cols-2">
     <div>
-      <AppAvatar name="Los Yarumos" date="hosting since 2018" />
+      <AppAvatar
+        path="/treehouse_far_view_p.jpg"
+        name="Los Yarumos"
+        date="hosting since 2018"
+      />
       <div class="flex items-center py-4 mb-1">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -29,12 +33,12 @@
         <span>hosting since 2018</span>
       </div>
       <div>
-        <h4 class="mt-6 mb-2 text-xl">During your stay</h4>
+        <h4 class="mt-6 mb-2 text-xl">{{ $t('during_head') }}</h4>
         <p>{{ $t('during_policy') }}</p>
       </div>
     </div>
     <div class="pt-8 md:pt-0">
-      <AppClickToChat>Contact Host</AppClickToChat>
+      <AppClickToChat>{{ $t('contact_host') }}</AppClickToChat>
     </div>
   </div>
 </template>

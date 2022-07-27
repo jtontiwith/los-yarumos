@@ -63,31 +63,34 @@
     </section>
     <div class="w-full border-t border-gray-300"></div>
     <section class="py-3">
-      <h3 class="mb-6 text-2xl font-semibold">Where you'll sleep</h3>
+      <h3 class="mb-6 text-2xl font-semibold">
+        {{ $t('prod_details.room_callout') }}
+      </h3>
       <div class="inline-block p-8 mb-6 border border-gray-300 rounded-md">
-        <p>Bedroom</p>
-        <p>1 queen bed</p>
+        <p>{{ $t('prod_details.room') }}</p>
+        <p>{{ $t('prod_details.bed') }}</p>
       </div>
     </section>
     <div class="w-full border-t border-gray-300"></div>
     <section class="py-3">
-      <h3 class="mb-6 text-2xl font-semibold">What this place offers</h3>
+      <h3 class="mb-6 text-2xl font-semibold">{{ $t('features.offering') }}</h3>
       <div class="flex">
         <ul class="mr-12">
-          <li class="mb-1">Kitchen</li>
-          <li class="mb-1">Wifi</li>
-          <li class="mb-1">Bathtub / Shower</li>
-          <li class="mb-1">2 Decks</li>
-          <li class="mb-1">Free parking</li>
+          <li class="mb-1">{{ $t('features.kitchen') }}</li>
+          <li class="mb-1">{{ $t('features.wifi') }}</li>
+          <li class="mb-1">{{ $t('features.bath') }}</li>
+          <li class="mb-1">{{ $t('features.deck') }}</li>
+          <li class="mb-1">{{ $t('features.park') }}</li>
         </ul>
         <ul>
-          <li class="mb-1">Garden basket</li>
-          <li class="mb-1">Dedicated workspace</li>
-          <li class="mb-1">Smoke Detector</li>
-          <li class="mb-1">Heaters</li>
+          <li class="mb-1">{{ $t('features.food') }}</li>
+          <li class="mb-1">{{ $t('features.workspace') }}</li>
+          <li class="mb-1">{{ $t('features.safety') }}</li>
+          <li class="mb-1">{{ $t('features.heat') }}</li>
         </ul>
       </div>
     </section>
+    <div class="w-full mt-6 mb-10 border-t border-gray-300"></div>
     <AppCalendarContainer />
   </div>
 </template>

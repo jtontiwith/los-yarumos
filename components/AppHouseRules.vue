@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h4 class="mt-6 mb-2 text-2xl">Things to know</h4>
+    <h4 class="mt-6 mb-2 text-2xl">{{ $t('to_know.head') }}</h4>
     <div class="grid grid-cols-1 md:grid-cols-3">
       <div>
         <h5 class="mt-6 mb-2 font-bold">

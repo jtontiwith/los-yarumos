@@ -23,7 +23,7 @@
             :key="i"
             class="flex items-baseline justify-between mb-3"
           >
-            <div>{{ category }}</div>
+            <div>{{ $t(`reviews_summary.${category}`) }}</div>
             <div class="flex items-center text-sm">
               <div class="w-32 mr-2 border-b-4 border-black"></div>
               <div>5.0</div>
@@ -38,7 +38,7 @@
             :key="i"
             class="flex items-baseline justify-between mb-3"
           >
-            <div>{{ category }}</div>
+            <div>{{ $t(`reviews_summary.${category}`) }}</div>
             <div class="flex items-center text-sm">
               <div class="w-32 mr-2 border-b-4 border-black"></div>
               <div>5.0</div>
@@ -54,14 +54,7 @@
 export default {
   name: 'AppReviewSummary',
   data: () => ({
-    reviewCategories: [
-      'Cleanliness',
-      'Communication',
-      'Check-in',
-      'Accuracy',
-      'Location',
-      'Value',
-    ],
+    reviewCategories: ['clean', 'comm', 'check', 'accu', 'loc', 'val'],
   }),
 }
 </script>

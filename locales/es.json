@@ -17,31 +17,74 @@
     "host": "Los Yarumos tiene la categoría de Superanfitrión",
     "host_sub": "Tenemos años de experiencia en hospedaje, y sin la mierda corporativa de Airbnb.",
     "cancelation": "Cancelación gratuita hasta una semana antes",
-    "cancelation_sub": "Puede cancelar sin cargo hasta 7 días antes del día de su llegada."
+    "cancelation_sub": "Puede cancelar sin cargo hasta 7 días antes del día de su llegada.",
+    "room_callout": "¿Dónde vas a dormir?",
+    "room": "Habitación",
+    "bed": "1 cama queen"
   },
+  "features": {
+    "offering": "Lo que este lugar ofrece",
+    "kitchen": "Cocina",
+    "wifi": "Wifi rápido",
+    "bath": "Bañera / ducha",
+    "deck": "2 balcones",
+    "park": "Parqueadero gratuito",
+    "food": "Canasta de jardín",
+    "workspace": "Espacio de trabajo dedicado",
+    "safety": "Detector de humo",
+    "heat": "Calentadores"
+  },
+  "reviews_summary": {
+    "clean": "Limpieza",
+    "comm": "Comunicación",
+    "check": "Llegada",
+    "accu": "Fiabilidad",
+    "loc": "Ubicación",
+    "val": "Precio"
+  },
+  "more_photos": "Todos",
+  "less_photos": "Atrás",
+  "btn_cta": "Chatea para programar tu estadía",
+  "night": "noche",
   "reviews": "reseñas",
-  "prod_description": "This is the kind of treehouse you see on the Discovery channel. You will experience a beautifully crafted space with fine finishing touches - this is not glamping or a cute-rustic cottage - it's instead as elegant as the natural beauty that surrounds it. Equipped with a bathtub, kitchen, 2 decks, queen bed, desk, fiber-optic internet, and the full experience of being up in the trees, it's the most unique lodging experience on the outskirts of Medellin.",
-  "map_description": "Donde estaras",
-  "where_description": "where description here",
+  "prod_description": "Este es el tipo de casa del árbol que ves en Discovery Channel. Experimentarás un espacio bellamente diseñado con finos toques finales: no se trata de un glamping ni de una linda cabaña rústica, sino tan elegante como la belleza natural que lo rodea. Equipado con tina, cocina, 2 decks, cama queen, escritorio, internet de fibra óptica y la experiencia completa de estar en los árboles, es la experiencia de hospedaje más única en las afueras de Medellín.",
+  "map_description": "A dónde irás",
+  "where_description": "Encontrarás la casa del árbol en Santa Elena, a solo 45 minutos de Medellín, pero se siente como si estuvieras a 3 horas de la ciudad en tu propio bosque privado. Santa Elena se entremezcla con el Parque Arví y grandes cantidades de bosques públicos vírgenes, por lo que hay mucha naturaleza para explorar. Muy cerca encontrará buenos restaurantes, Parque Arví, Comfama, toneladas de senderos para caminatas, paz y tranquilidad.",
+  "during_head": "Durante tu estadía",
   "during_policy": "Estaremos disponibles en el caso que occure una emergencia.",
+  "contact_host": "Ponte en contacto con el anfitrión",
   "to_know": {
+    "head": "Lo que debes saber",
     "rules": {
-      "sub_head": "House Rules",
-      "check_in": "Check-in: 2:00 PM - 8:00 PM",
-      "check_out": "Check-in: 2:00 PM - 8:00 PM",
-      "pets": "No pets",
-      "events": "No parties or events",
-      "prostitution": "No prostitution",
-      "smoking": "Outside smoking"
+      "sub_head": "Reglas de la casa",
+      "check_in": "Check-in: A partir de las 13:00",
+      "check_out": "Salida: 12:00",
+      "pets": "No se admiten mascotas",
+      "events": "Está prohibido hacer fiestas o eventos",
+      "prostitution": "No prostitución",
+      "smoking": "Prohibido fumar"
     },
     "health": {
-      "sub_head": "Health & Safety",
-      "cleaning": "Enhanced cleaning and covid protocols",
-      "smoke_alarm": "Inside smoke alarm"
+      "sub_head": "Salud & seguridad",
+      "cleaning": "Se aplican las prácticas de seguridad relacionadas con la COVID-19",
+      "smoke_alarm": "Alarma de humo"
     },
     "cancellation": {
-      "sub_head": "Cancellation Policy",
-      "policy": "Free cancelation one week before stay"
+      "sub_head": "Política de cancelación",
+      "policy": "Cancelación gratuita una semana antes"
+    }
+  },
+  "footer": {
+    "links": {
+      "glossary": "Glossary",
+      "location": "Location",
+      "gallery": "Gallery",
+      "near_to": "Near to Los Yarumos",
+      "press": "Press",
+      "about": "About",
+      "reviews": "Reviews",
+      "Food": "Food",
+      "Wellness": "Wellness"
     }
   }
 }

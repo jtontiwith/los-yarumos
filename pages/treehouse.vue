@@ -19,7 +19,7 @@
         @click="toggleCarousel"
       >
         <AppIcon width="25" height="25"><Photo /></AppIcon>
-        <p class="ml-3 font-semibold">All</p>
+        <p class="ml-3 font-semibold">{{ $t(`${btnTextStatus}`) }}</p>
       </div>
     </section>
     <section class="grid grid-cols-1 pt-6 md:grid-cols-5 gap-x-6">
@@ -28,7 +28,7 @@
         <AppCTA />
       </div>
     </section>
-    <div class="w-full border-t border-gray-300"></div>
+    <div class="w-full mt-8 border-t border-gray-300"></div>
     <section id="reviews">
       <AppReviewSummary />
       <AppReviews />
@@ -65,6 +65,12 @@ export default {
     carousel: false,
     vpWidth: null,
   }),
+  computed: {
+    btnTextStatus() {
+      if (!this.carousel) return 'more_photos'
+      return 'less_photos'
+    },
+  },
   mounted() {
     this.vpWidth = window.innerWidth
   },
