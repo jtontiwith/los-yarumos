@@ -74,7 +74,14 @@
       "policy": "Free cancelation one week before stay"
     }
   },
+  "bio": {
+    "host": "Hosting since 2018"
+  },
   "footer": {
+    "language": "language",
+    "updates": "Get updates from us",
+    "updates_sub": "Very occasionally, when there's something noteworthy, we'll let you know.",
+    "copyright": "All rights reserved",
     "links": {
       "glossary": "Glossary",
       "location": "Location",

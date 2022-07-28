@@ -30,7 +30,7 @@
             clip-rule="evenodd"
           />
         </svg>
-        <span>hosting since 2018</span>
+        <span>{{ $t('bio.host') }}</span>
       </div>
       <div>
         <h4 class="mt-6 mb-2 text-xl">{{ $t('during_head') }}</h4>
@@ -44,5 +44,7 @@
 </template>
 
 <script>
-export default {}
+export default {
+  name: 'AppHostBio',
+}
 </script>

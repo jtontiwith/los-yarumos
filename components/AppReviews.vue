@@ -16,8 +16,10 @@ export default {
         name: 'Josh',
         date: 'June 2022',
         img: '/review_photos/Josh_Avatar.jpg',
-        blurb:
-          'This place was an absolute dream. Very romantic area in the middle of the forest. Fast Wifi. Great hosts. The jacuzzi was a perfect way to end the day. Loved it.',
+        blurb: `I was fortunate to stay in the first Santa Elena treehouse for over a week. Despite visiting Medellin, Cartagena, and Jardin, my time in the treehouse was the highlight of my trip. I can’t wait to get back to that bedroom in the trees. I woke up each morning to birds, chipmunks, and butterflies flying around the 360 degrees of windows in my bedroom. On my final morning, I was visited by a toucan on my balcony. 
+                By day, I explored the nearly 100km of hiking trails. By night I set the mood by taking an hour long bath in the claw-foot tub. As a large man, I have trouble finding a tub that fits my body. The instant hot water mixed with bath salts, moved my muscles and mind to full relaxation mode. 
+                This home is luxury living: wifi; electrical outlets a plenty; heaters; full kitchen; fresh garden vegetables and eggs; and a dreamy queen size bed.
+                I can’t wait to get back. Thank you Jon and Adri for being attentive hosts!`,
       },
       {
         name: 'Chris',

@@ -2,21 +2,23 @@
   <footer class="bg-gray-100" aria-labelledby="footer-heading">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
     <div class="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:py-16 lg:px-8">
-      <div class="pb-8 xl:grid xl:grid-cols-5 xl:gap-8">
-        <div class="grid grid-cols-2 gap-8 xl:col-span-4">
-          <div class="md:grid md:grid-cols-2 md:gap-8">
+      <!-- <div class="pb-8 xl:grid xl:grid-cols-2 xl:gap-8"> -->
+      <div class="grid grid-cols-6 pb-8">
+        <!-- <div class="grid grid-cols-2 gap-8 xl:col-span-4"> -->
+        <div class="grid grid-cols-2 col-span-6 md:col-span-3">
+          <div class="grid grid-cols-2 col-span-2 md:gap-8">
             <div>
               <h3
                 class="text-sm font-semibold tracking-wider text-gray-400 uppercase"
               >
-                glossary
+                {{ $t('footer.links.glossary') }}
               </h3>
               <ul role="list" class="mt-4 space-y-4">
                 <li>
                   <nuxt-link
                     class="text-base text-gray-500 hover:text-gray-900"
                     :to="{ path: '/treehouse', hash: '#map' }"
-                    >Location</nuxt-link
+                    >{{ $t('footer.links.location') }}</nuxt-link
                   >
                 </li>
 
@@ -24,7 +26,7 @@
                   <nuxt-link
                     class="text-base text-gray-500 hover:text-gray-900"
                     :to="{ path: '/treehouse', hash: '#gallery' }"
-                    >Gallery</nuxt-link
+                    >{{ $t('footer.links.gallery') }}</nuxt-link
                   >
                 </li>
 
@@ -32,7 +34,7 @@
                   <nuxt-link
                     class="text-base text-gray-500 hover:text-gray-900"
                     to="/info"
-                    >Near to Los Yarumos</nuxt-link
+                    >{{ $t('footer.links.near_to') }}</nuxt-link
                   >
                 </li>
 
@@ -40,12 +42,12 @@
                   <nuxt-link
                     class="text-base text-gray-500 hover:text-gray-900"
                     to="/info"
-                    >Press</nuxt-link
+                    >{{ $t('footer.links.press') }}</nuxt-link
                   >
                 </li>
               </ul>
             </div>
-            <div class="mt-12 md:mt-0">
+            <div>
               <h3
                 class="text-sm font-semibold tracking-wider text-gray-400 uppercase"
               >
@@ -56,7 +58,7 @@
                   <nuxt-link
                     class="text-base text-gray-500 hover:text-gray-900"
                     to="/info"
-                    >About</nuxt-link
+                    >{{ $t('footer.links.about') }}</nuxt-link
                   >
                 </li>
 
@@ -64,7 +66,7 @@
                   <nuxt-link
                     class="text-base text-gray-500 hover:text-gray-900"
                     :to="{ path: '/treehouse', hash: '#reviews' }"
-                    >Reviews</nuxt-link
+                    >{{ $t('footer.links.reviews') }}</nuxt-link
                   >
                 </li>
 
@@ -72,7 +74,7 @@
                   <nuxt-link
                     class="text-base text-gray-500 hover:text-gray-900"
                     to="/info"
-                    >Food</nuxt-link
+                    >{{ $t('footer.links.food') }}</nuxt-link
                   >
                 </li>
 
@@ -80,22 +82,18 @@
                   <nuxt-link
                     class="text-base text-gray-500 hover:text-gray-900"
                     to="/info"
-                    >Wellness</nuxt-link
+                    >{{ $t('footer.links.wellness') }}</nuxt-link
                   >
                 </li>
               </ul>
             </div>
           </div>
-          <div class="md:grid md:grid-cols-2 md:gap-8">
-            <div></div>
-            <div class="mt-12 md:mt-0"></div>
-          </div>
         </div>
-        <div class="mt-12 xl:mt-0">
+        <div class="col-span-6 mt-12 sm:mt-0 md:col-span-3">
           <h3
             class="text-sm font-semibold tracking-wider text-gray-400 uppercase"
           >
-            Language
+            {{ $t('footer.language') }}
           </h3>
           <form class="mt-4 sm:max-w-xs">
             <fieldset class="w-full">
@@ -142,11 +140,10 @@
           <h3
             class="text-sm font-semibold tracking-wider text-gray-400 uppercase"
           >
-            Get updates from us
+            {{ $t('footer.updates') }}
           </h3>
           <p class="mt-2 text-base text-gray-500">
-            Very occasionally, when there's something noteworthy, we'll let you
-            know.
+            {{ $t('footer.updates_sub') }}
           </p>
         </div>
         <form class="mt-4 sm:flex sm:max-w-md lg:mt-0">
@@ -207,7 +204,7 @@
           </a>
         </div>
         <p class="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
-          &copy; 2022 Los Yarumos. All rights reserved.
+          &copy; 2022 Los Yarumos. {{ $t('footer.copyright') }}
         </p>
       </div>
     </div>

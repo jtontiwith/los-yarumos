@@ -74,17 +74,24 @@
       "policy": "Cancelación gratuita una semana antes"
     }
   },
+  "bio": {
+    "host": "Anfitrión desde 2018"
+  },
   "footer": {
+    "language": "idioma",
+    "updates": "Recibe actualizaciones de nosotros",
+    "updates_sub": "Muy de vez en cuando, cuando haya algo digno de mención, se lo haremos saber.",
+    "copyright": "Todos los derechos reservados",
     "links": {
-      "glossary": "Glossary",
-      "location": "Location",
-      "gallery": "Gallery",
-      "near_to": "Near to Los Yarumos",
-      "press": "Press",
-      "about": "About",
-      "reviews": "Reviews",
-      "Food": "Food",
-      "Wellness": "Wellness"
+      "glossary": "Glosario",
+      "location": "Ubicación",
+      "gallery": "Galería",
+      "near_to": "Cerca de Los Yarumos",
+      "press": "Prensa",
+      "about": "Sobre nosotros",
+      "reviews": "Reseñas",
+      "food": "Comida",
+      "wellness": "Bienestar"
     }
   }
 }
