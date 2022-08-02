@@ -3,7 +3,7 @@
     <!--TODO: use different strategy to darken video-->
     <video
       id="hero-video"
-      poster="treehouse_far_view_p.jpg"
+      :poster="poster"
       class="object-cover w-screen h-screen bg-black"
       style="-webkit-filter: brightness(75%)"
       playsinline
@@ -39,5 +39,13 @@
 <script>
 export default {
   name: 'Home',
+  data: () => ({
+    poster: "treehouse_far_view_p.jpg" 
+  }),
+  mounted() {
+    if (window.matchMedia("(orientation: portrait)").matches) {
+      this.poster = "hallway_p.jpg"
+    }
+  },
 }
 </script>

@@ -28,20 +28,20 @@ export default {
         blurb:
           "I had a great time in the treehouse, it's a beautiful structure set in a stunning forrest. The elevated height makes you really feel like you're living up with the trees. The two balconies give you great spaces to enjoy outside and the bedroom is a very large area to enjoy as the night draws in. This is a lovely place to get away from the city and relax, and has many walks in the area that you can explore.",
       },
-      {
-        name: 'Some Body',
-        date: 'February 2022',
-        img: null,
-        blurb:
-          'This place was an absolute dream. Very romantic area in the middle of the forest. Fast Wifi. Great hosts. The jacuzzi was a perfect way to end the day. Loved it.',
-      },
-      {
-        name: 'Some Body',
-        date: 'December 2021',
-        img: null,
-        blurb:
-          'This place was an absolute dream. Very romantic area in the middle of the forest. Fast Wifi. Great hosts. The jacuzzi was a perfect way to end the day. Loved it.',
-      },
+      // {
+      //   name: 'Some Body',
+      //   date: 'February 2022',
+      //   img: null,
+      //   blurb:
+      //     'This place was an absolute dream. Very romantic area in the middle of the forest. Fast Wifi. Great hosts. The jacuzzi was a perfect way to end the day. Loved it.',
+      // },
+      // {
+      //   name: 'Some Body',
+      //   date: 'December 2021',
+      //   img: null,
+      //   blurb:
+      //     'This place was an absolute dream. Very romantic area in the middle of the forest. Fast Wifi. Great hosts. The jacuzzi was a perfect way to end the day. Loved it.',
+      // },
     ],
   }),
 }

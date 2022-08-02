@@ -13,7 +13,7 @@
       </svg>
       <p>5.0</p>
       &nbsp; - &nbsp;
-      <p>23 reviews</p>
+      <p>2 reviews</p>
     </div>
     <div class="grid grid-cols-1 gap-x-32 md:grid-cols-2">
       <div>

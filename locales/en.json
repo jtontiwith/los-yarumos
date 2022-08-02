@@ -90,8 +90,8 @@
       "press": "Press",
       "about": "About",
       "reviews": "Reviews",
-      "Food": "Food",
-      "Wellness": "Wellness"
+      "food": "Food",
+      "wellness": "Wellness"
     }
   }
 }

@@ -11,7 +11,7 @@
       />
     </svg>
     <span class="mr-2">5.0</span>&middot;
-    <span class="mx-2">38 {{ $t('reviews') }}</span
+    <span class="mx-2">2 {{ $t('reviews') }}</span
     >&middot;
     <span class="mx-2">Antiooquia, Colombia</span>
   </div>
