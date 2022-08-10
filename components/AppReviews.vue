@@ -28,6 +28,12 @@ export default {
         blurb:
           "I had a great time in the treehouse, it's a beautiful structure set in a stunning forrest. The elevated height makes you really feel like you're living up with the trees. The two balconies give you great spaces to enjoy outside and the bedroom is a very large area to enjoy as the night draws in. This is a lovely place to get away from the city and relax, and has many walks in the area that you can explore.",
       },
+       {
+        name: 'Liz',
+        date: 'Aug 2022',
+        img: '/review_photos/Liz_Avatar.png',
+        blurb: "No puedo esperar para volver. Hasta el momento es el lugar más especial en el que he estado en Santa Elena. Despertarte en medio del bosque, poder desconectarme y al mismo tiempo tener el espacio perfecto para trabajar, es maravilloso. Además poder cosechar verdura fresca para cocinar mi propia comida y tener todo lo necesario para hacerlo, es increíble. Es toda una experiencia, una verdadera casa en el árbol, y con la calefacción perfecta. Sin dejar de lado la hospitalidad de Adriana la persona encargada. Volvería sin duda."
+      },
       // {
       //   name: 'Some Body',
       //   date: 'February 2022',
