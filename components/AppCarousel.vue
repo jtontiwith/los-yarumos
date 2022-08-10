@@ -3,7 +3,7 @@
     <carousel
       :per-page="1"
       :navigate-to="someLocalProperty"
-      :mouse-drag="false"
+      :mouse-drag="true"
       pagination-color="#16a34a"
       pagination-position="bottom-overlay"
     >

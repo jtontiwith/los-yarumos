@@ -86,12 +86,18 @@
       "glossary": "Glosario",
       "location": "Ubicación",
       "gallery": "Galería",
-      "near_to": "Cerca de Los Yarumos",
+      "near_to": "Cerca Los Yarumos",
       "press": "Prensa",
       "about": "Sobre nosotros",
       "reviews": "Reseñas",
       "food": "Comida",
       "wellness": "Bienestar"
     }
+  },
+  "info": {
+    "about": "Los Yarumos Treehouses es la experiencia de hospedaje más singular en las afueras de Medellín. Te acercamos a la naturaleza más que cualquier otra experiencia de alojamiento, ya que literalmente estás suspendido y viviendo junto a los árboles durante tu estadía. Queremos ayudar a nuestros huéspedes a disipar la ilusión de que están separados de la naturaleza que los rodea. Cuando lo logre, se sentirá inspirado para asociarse con la naturaleza e inventar junto a ella, como lo hemos hecho en Los Yarumos.",
+    "food": "Recibirás huevos frescos de nuestras gallinas y ensalada de nuestra huerta. También hemos incluido una guía de todos los restaurantes locales, incluidas las opciones de entrega. No hay servicio de comida en Los Yarumos.",
+    "wellness": "Hay una variedad de curanderos a poca distancia. Consúltanos y te pondremos en contacto con masajistas, chamanes tanto de ayahuasca como de san pedro, y otros curanderos/terapias.",
+    "press": "Comuníquese con nosotros a servicio@losyaumos.com si desea incluir a Los Yarumos en su cobertura de prensa. Además, estamos abiertos a escritores de viajes, vloggers, etc. que evalúen Los Yarumos."
   }
 }

@@ -51,7 +51,7 @@
   "map_description": "Where you’ll be",
   "where_description": "You'll find the treehouse in Santa Elena, just 45 minutes outside Medellín yet it feels like your 3 hours away form the city in your own private forrest. Santa Elena is intermingle with Parque Arví and massive amounts of untouched public forrest so there's plenty of pristine nature to explore. Close by you'll find good restaurants, Parque Arví, Comfama, tons of hiking trails, peace & tranquility.",
   "during_head": "During your stay",
-  "during_policy": "We can assit in the case of an emergency.",
+  "during_policy": "We can assist in the case of an emergency.",
   "contact_host": "Get in contact with host",
   "to_know": {
     "head": "Things to know",
@@ -86,12 +86,18 @@
       "glossary": "Glossary",
       "location": "Location",
       "gallery": "Gallery",
-      "near_to": "Near to Los Yarumos",
+      "near_to": "Near Los Yarumos",
       "press": "Press",
       "about": "About",
       "reviews": "Reviews",
       "food": "Food",
       "wellness": "Wellness"
     }
+  },
+  "info": {
+    "about": "Los Yarumos Treehouses is the most unique lodging experience on the outskirts of Medellin. We get you closer to nature than any other lodging experience as you are literally suspended in and living alongside the trees during your stay. We want to help our guests dispel the illusion that they are separate from the nature around them. When you achieve that, you’ll be inspired to partner with nature and invent alongside it as we have at Los Yarumos.",
+    "food": "You will receive fresh eggs from our chickens and salad from our garden. We’ve also included a guide of all local restaurants including delivery options. There is no food service at Los Yarumos.",
+    "wellness": "There are a variety of healers within walking distance. Ask us and we can put you in touch with massage therapists, shamans for both ayahuasca and san pedro, and other healers / therapies.",
+    "press": "Please reach out to us at servicio@losyaumos.com if you’d like to include Los Yarumos in your press coverage. Additionally, we are open to travel writers, vloggers, etc. reviewing Los Yarumos."
   }
 }
