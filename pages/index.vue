@@ -1,7 +1,12 @@
 <template>
   <div>
-    <!--TODO: use different strategy to darken video-->
+    <nuxt-img
+      v-if="vpWidth < 400"
+      class="object-cover w-screen h-screen bg-black"
+      :src="poster"
+    />
     <video
+      v-else
       id="hero-video"
       :poster="poster"
       class="object-cover w-screen h-screen bg-black"
@@ -14,6 +19,7 @@
       <source src="../static/pan_vid.mp4" type="video/mp4" />
       <div>No video!</div>
     </video>
+    
     <AppLogo position="absolute" top="top-0" left="left-0" padding="p-6">
       <h1 class="ml-2 text-4xl font-bold text-white font-handwritten">
         Los Yarumos
@@ -40,12 +46,14 @@
 export default {
   name: 'Home',
   data: () => ({
-    poster: "treehouse_far_view_p.jpg" 
+    poster: "treehouse_far_view_p.jpg",
+    vpWidth: null 
   }),
   mounted() {
     if (window.matchMedia("(orientation: portrait)").matches) {
       this.poster = "hallway_p.jpg"
     }
+    this.vpWidth = window.innerWidth
   },
 }
 </script>
