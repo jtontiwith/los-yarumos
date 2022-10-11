@@ -12,7 +12,7 @@
         <div
           v-for="(img, i) in images.slice(1)"
           :key="i"
-          class="w-1/2"
+          class="w-1/2 h-1/2"
           :class="{ 'pr-2 pb-2': i === 0, 'pb-2': i === 1, 'pr-2': i === 2 }"
         >
           <nuxt-img
@@ -38,10 +38,10 @@ export default {
   data: () => ({
     images: [
       { path: '/treehouse_far_view_p.jpg', loaded: false },
-      { path: '/bedroom_p.jpg', loaded: false },
-      { path: '/bathroom_p.jpg', loaded: false },
-      { path: '/kitchen_p.jpg', loaded: false },
-      { path: '/balcony_p.jpg', loaded: false },
+      { path: '/bedroom_facing_bed.jpg', loaded: false },
+      { path: '/rocking_chair.jpg', loaded: false },
+      { path: '/kitchen.jpg', loaded: false },
+      { path: '/bathroom_re_crop.jpg', loaded: false },
     ],
   }),
   computed: {

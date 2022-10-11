@@ -31,11 +31,15 @@ export default {
   },
   data: () => ({
     images: [
+      { path: '/house_side_view.jpg', loaded: false },
+      { path: '/house_underneath_view.jpg', loaded: false },
       { path: '/treehouse_far_view_p.jpg', loaded: false },
-      { path: '/bedroom_p.jpg', loaded: false },
-      { path: '/bathroom_p.jpg', loaded: false },
-      { path: '/kitchen_p.jpg', loaded: false },
-      { path: '/balcony_p.jpg', loaded: false },
+      { path: '/house_side_view.jpg', loaded: false },
+      { path: '/bedroom_facing_bed.jpg', loaded: false },
+      { path: '/bedroom_with_tree.jpg', loaded: false },
+      { path: '/rocking_chair.jpg', loaded: false },
+      { path: '/kitchen.jpg', loaded: false },
+      { path: '/kitchen_with_utensils.jpg', loaded: false },
     ],
   }),
 }
