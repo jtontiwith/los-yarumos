@@ -11,13 +11,13 @@
   },
   "prod_details": {
     "house": "Alojamiento entero",
-    "house_sub": "Inclyue casa de arbol entero y su jardin aredador.",
+    "house_sub": "Inclyue casa de arbol entero y su jardin alrededor.",
     "cleaning": "Opciones de limpieza mejoradas",
-    "cleaning_sub": "Usamos el mismo proceso de limpieza mejorada de 5 pasos de Airbnb.",
-    "host": "Los Yarumos tiene la categoría de Superanfitrión",
-    "host_sub": "Tenemos años de experiencia en hospedaje, y sin la mierda corporativa de Airbnb.",
+    "cleaning_sub": "Usamos proceso de limpieza mejorada.",
+    "host": "Los Yarumos es un Superanfitrión",
+    "host_sub": "Tenemos años de experiencia en hospedaje.",
     "cancelation": "Cancelación gratuita hasta una semana antes",
-    "cancelation_sub": "Puede cancelar sin cargo hasta 7 días antes del día de su llegada.",
+    "cancelation_sub": "Puede cancelar hasta 7 días antes del día de su llegada.",
     "room_callout": "¿Dónde vas a dormir?",
     "room": "Habitación",
     "bed": "1 cama queen"
@@ -75,7 +75,8 @@
     }
   },
   "bio": {
-    "host": "Anfitrión desde 2018"
+    "host": "Anfitrión desde 2022",
+    "reviews": "3 reseñas"
   },
   "footer": {
     "language": "idioma",
