@@ -51,7 +51,7 @@ export default {
   }),
   mounted() {
     if (window.matchMedia("(orientation: portrait)").matches) {
-      this.poster = "hallway_p.jpg"
+      this.poster = "bedroom_platform_portriat.jpg"
     }
     this.vpWidth = window.innerWidth
   },

@@ -90,7 +90,7 @@ export default {
         file: 'es.json',
       },
     ],
-    defaultLocale: 'en',
+    defaultLocale: 'es',
     langDir: 'locales/',
     vueI18n: {
       fallbackLocale: 'en',
